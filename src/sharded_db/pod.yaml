@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: weaviate-populator
+spec:
+  volumes:
+    - name: weaviate-populator-folder
+      emptyDir: {}
+    - name: ceph
+      hostPath:
+        path: /mnt/ceph/storage
+  containers:
+    - name: my-manual-script
+      image: python
+      ports:
+        - containerPort: 8080
+          protocol: TCP
+      command:
+      - 'sh'
+      - '-c'
+      - |
+        echo Hello, Kubernetes!
+        touch /keep-running
+        apt-get update
+        apt install -y htop nano tmux
+        pip3 install weaviate-client==4.6.0
+        pip3 install torch==2.2.2
+        pip3 install tqdm
+        while [ -e /keep-running ]; do
+          sleep 60;
+        done
+        echo Bye!
+
+      volumeMounts:
+      - name: weaviate-populator-folder
+        mountPath: /tempdata
+      - name: ceph
+        mountPath: /data/ceph/storage

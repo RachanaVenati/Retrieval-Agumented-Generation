@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: weaviate-inference-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/backend-protocol: "GRPC"
+  namespace: webisstud
+spec:
+  ingressClassName: "nginx"
+  rules:
+    - host: weaviateinference.srv.webis.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: weaviate-service
+                port:
+                  number: 50051

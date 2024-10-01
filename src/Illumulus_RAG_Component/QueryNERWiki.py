@@ -25,7 +25,6 @@ def request_llama3(prompt):
 
 def main():
 
-
     entity_list = []
     filepath = 'illumulus_story_titles.json'
     wiki_wiki = wikipediaapi.Wikipedia('RagProj', 'en')

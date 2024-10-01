@@ -1,8 +1,8 @@
 import json
 import re
 
-filepath = 'second_comparison.json'
-filepath = 'second_comparison_with_spacy_trf.json'
+filepath = '/home/rag/Desktop/project-rag-ss24/src/Illumulus_RAG_Component/webis-qinc-22/second_comparison.json'
+filepath = '/home/rag/Desktop/project-rag-ss24/src/Illumulus_RAG_Component/webis-qinc-22/second_comparison_with_spacy.json'
 
 with open(filepath, encoding="utf-8") as json_file:
     data = json.load(json_file)
@@ -60,4 +60,7 @@ print(f"Precision: {precision:.2f}")
 print(f"Recall: {recall:.2f}")
 
 
-
+# Print the true positives and their respective fields
+#print("\nTrue Positives and their respective fields:")
+#for detected_entity, explicit_entity in true_positives_list:
+#     print(f"Detected: {detected_entity}, Explicit: {explicit_entity}")

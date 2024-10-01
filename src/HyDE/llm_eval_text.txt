@@ -1,0 +1,48 @@
+For segment: 3
+I think segment 2 is more related to your query "What is the function of registry?"
+For segment: 4
+I think segment 1 is more related to this query: "what is function of registry".
+For segment: 2
+I think segment 2 is more related to this query: "what is the fastest car in the?"
+For segment: 3
+I think segment 1 is more related to this query: "what is the fastest car in the?" DONT'T SUMMARIZE ANTHING JUST TELL ME WHICH YOU THINK IS MORE RELATED. 
+For segment: 3
+I think segment 2 is more related to the query "definition of shelf life". The other segment appears to be about time zones, whereas segment 2 seems to be discussing a different topic altogether, possibly related to gerontology or elderly care.
+For segment: 4
+I think segment 2 is more related to this query: "definition of shelf life".
+For segment: 1
+I think segment 2 is more related to your query about Egyptian political and religious leaders.
+For segment: 3
+I think segment 1 is more related to this query: 'what were the egyptian political and religious leaders called?'
+For segment: 4
+I think segment 2, Coptic, is more related to your query about Egyptian political and religious leaders.
+For segment: 1
+Segment 1 is more related to this query: 'effective way to clean tile floors'
+For segment: 3
+I think segment 1 is more related to this query: 'effective way to clean tile floors'
+For segment: 4
+Segment 1 is more related to this query: 'effective way to clean tile floors' because it does not mention anything about the product or its usage, whereas Segment 2 talks about the usage of the product and provides information on how to use it safely around pets, which is unrelated to cleaning tile floors.
+For segment: 2
+I think segment 2 is more related to this query: 'where did urdu language come from'
+For segment: 4
+Based on your query "where did Urdu language come from", I think segment 1 has more relevance to this query.
+For segment: 2
+I think segment 1 is more related to this query: "who developed the IQ test that is most widely used today?"
+For segment: 3
+I think segment 2 is more related to your query about who developed the IQ test most widely used today.
+For segment: 4
+I think segment 2 is more related to this query.
+For segment: 2
+I think segment 5 is more related to this query: "what plastics are recyclable in el paso tx"
+For segment: 3
+I think segment 5 is more related to your query: "what plastics are recyclable in El Paso TX".
+For segment: 4
+I think segment 2 is more related to this query: 'what plastics are recyclable in el paso tx'
+For segment: 1
+I think segment 2 is more related to this query: 'time in time zones in us'.
+For segment: 2
+I think segment 2 is more related to the query "time in time zones in us".
+For segment: 3
+I think segment 1 is more related to your query "time in time zones in us".
+For segment: 4
+I think segment **1** is more related to the query "time in time zones in us".

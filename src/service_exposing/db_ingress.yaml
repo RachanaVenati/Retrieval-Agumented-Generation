@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: weaviate-db-ingress
+  namespace: webisstud
+spec:
+  ingressClassName: "nginx"
+  rules:
+    - host: weaviatedb.srv.webis.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: weaviate-service
+                port:
+                  number: 8080

@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: weaviate-ingress
+  namespace: webisstud
+spec:
+  ingressClassName: "nginx"
+  rules:
+    - host: weaviate.srv.webis.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: weaviate-service
+                port:
+                  number: 8080
+          - path: /grpc
+            pathType: Prefix
+            backend:
+              service:
+                name: weaviate-service
+                port:
+                  number: 50051

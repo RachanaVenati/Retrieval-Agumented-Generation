@@ -21,7 +21,7 @@ def run_llama3_api(prompt):
         return None
 
 def main():
-    input_file = "/home/rag/Desktop/project-rag-ss24/src/Illumulus_RAG_Component/webis-qinc-22/input_ambigious_entities.json"  
+    input_file = "/home/rag/Desktop/project-rag-ss24/src/Illumulus_RAG_Component/webis-qinc-22/output.json"  
     output_file = "/home/rag/Desktop/project-rag-ss24/src/Illumulus_RAG_Component/webis-qinc-22/second_comparison.json"  
 
     with open(input_file, 'r') as infile:
