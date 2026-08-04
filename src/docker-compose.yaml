@@ -1,3 +1,4 @@
+#docker file for weaviate and the text2vec-transformers module
 version: '3.4'
 services:
   weaviate:

@@ -39,7 +39,7 @@ topic_keys = list(topics.keys())
 count = 0
 q = "Q0"
 type = "weaviate_dense_base"
-output_file_path = '/Users/cemerturkan/Desktop/r_output_trec_rag_2024.tsv'
+output_file_path = '../data/r_output_trec_rag_2024.tsv'
 with open(output_file_path, 'w') as file:
     for topic_id in tqdm(topic_keys):
             
